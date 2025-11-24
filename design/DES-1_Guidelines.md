@@ -61,8 +61,9 @@
 * Step 4: Work **only on the required content**, not full screens.
 * Rule: Work on what is required — no extras.
 <details>
-<summary>Visual example</summary>
-
+<summary>💡 <b>Usage Example</b></summary>
+   
+## Here’s a visual example of how this component works:
 <!-- Make sure there is a blank line before and after the image -->
 
 ![Component Construction Rules and usage](readme-assets/img_des.png)
