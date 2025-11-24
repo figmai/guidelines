@@ -2,7 +2,7 @@
 
 
 
-##1. Component Creation & Reusability
+## 1. Component Creation & Reusability
 * Identify and add all missing **reusable components.**
 * Components must be **specific, flexible, and variant-driven.**
 * Any **repeated element** should exist as a component to ensure scalability and consistency.
@@ -10,7 +10,7 @@
 * Modify components only through available properties — avoid custom modifications.
 
 
-##2. Component Documentation
+## 2. Component Documentation
 * Each component set must include:
     * A **clear description.**
     * **Usage guidelines** explaining where and why it’s used.
@@ -18,7 +18,7 @@
 * The documentation must maintain **consistency** across all screens.
 
 
-##3. Content Guidelines
+## 3. Content Guidelines
 * Provide **only developer-relevant content.**
 * **Exclude** mock or unused UI (e.g., default mobile nav bars).
 * Keep deliverables **clean, accurate and purposeful.**
@@ -31,16 +31,16 @@
 * Mark files and frames as **“Ready for Dev”** once they’re complete.
 
 
-##4. Naming Conventions
+## 4. Naming Conventions
 * Rename layers using **component-based names:**
     * ✅ TradeButton, BuyButton
     * ❌ Frame 12, Button Copy
 * Labels must reflect **intent** and **function,** not default text.
-* If available follow the Glossary.  **When in doubt:** ➤ If you are not completely sure about the correct name to use, ask your developer.
+* If available follow the Glossary.  **When in doubt**: ➤ If you are not completely sure about the correct name to use, ask your developer.
 * This ensures alignment between **design names** and **code components**, preventing confusion or mismatched references during handoff.
 
 
-##5. Icons & Images
+## 5. Icons & Images
 * Use **snake_case** format (e.g., ic_usd).
 * Always start names with a **letter**
 * Prefix icons with **ic_**, which stands for “icon.”(standard for icon assets).
@@ -48,12 +48,12 @@
 * Maintain **clean, minimal node structure** for performance.
 
 
-##6. Building Designs with Blocks
+## 6. Building Designs with Blocks
 * Think in **modular blocks**: create elements that can be reused, rearranged and scaled.
 * Encourage **systematic design** — each block should serve a clear, repeatable purpose.
 
 
-##7. Component Construction Rules and usage (UI Layout Wrapper)
+## 7. Component Construction Rules and usage (UI Layout Wrapper)
 * Step 1: Create a **container** for the main content.
 * Step 2: Insert a **swap instance** inside for variable content.
     * Example: A Card component with a swap area allows flexible content changes.
@@ -61,7 +61,7 @@
 * Step 4: Work **only on the required content**, not full screens.
 * Rule: Work on what is required — no extras.
 
- ##8. Auto Layout & Resizing Properties
+## 8. Auto Layout & Resizing Properties
 **Purpose**: Ensure every component and frame remains fully responsive and flexible within any layout.
 **Rules**:
 * Apply **Auto Layout** to every frame, group, and component.
@@ -76,7 +76,7 @@
 * **When in doubt**: ➤ Ask your developer which responsive behavior is expected in production before finalizing.
 
 
-   ##Quick Checklist ✅
+  ## Quick Checklist ✅
 * ✅ Reuse repeated elements as **components.**
 * ✅ Document **components & variants**: description, usage, customization.
 * ✅ Deliver **developer-relevant content only**; no mock/unused UI.
