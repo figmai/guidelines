@@ -65,7 +65,7 @@
 
 <!-- Make sure there is a blank line before and after the image -->
 
-![Component Construction Rules and usage](img_DES.png)
+![Component Construction Rules and usage](readme-assets/img_des.png)
 
 </details>
 
