@@ -60,9 +60,19 @@
 * Step 3: Apply **paddings only to the instance**, not to the parent component or frame.
 * Step 4: Work **only on the required content**, not full screens.
 * Rule: Work on what is required — no extras.
+<details>
+<summary>Visual example</summary>
+
+<!-- Make sure there is a blank line before and after the image -->
+
+![Component Construction Rules and usage](img_DES.png)
+
+</details>
+
 
 ## 8. Auto Layout & Resizing Properties
-**Purpose**: Ensure every component and frame remains fully responsive and flexible within any layout.
+**Purpose**: Ensure every component and frame remains fully responsive and flexible within any layout.<br>
+
 **Rules**:
 * Apply **Auto Layout** to every frame, group, and component.
 * **Never use “Fixed” width or height.**
@@ -73,9 +83,7 @@
     * **Card / Container**: Fill container
 * All spacing and padding must be defined **within Auto Layout** settings, not with manual offsets.
 * Always test **resizing and wrapping behavior** across component variants and screen sizes.
-* **When in doubt**: ➤ Ask your developer which responsive behavior is expected in production before finalizing.
-
-
+* **When in doubt**: ➤ Ask your developer which responsive behavior is expected in production before finalizing.
   ## Quick Checklist ✅
 * ✅ Reuse repeated elements as **components.**
 * ✅ Document **components & variants**: description, usage, customization.
@@ -97,6 +105,6 @@
 
 
 
-![Component Construction Rules and usage](img_DES.png)
+
 
 
